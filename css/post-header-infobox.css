@@ -1,0 +1,61 @@
+
+.post-header-infobox {
+
+	width:985px;
+	height:150px;
+
+}
+.post-header-infobox div.inner {
+	padding:10px 20px 10px 20px;
+}
+.post-header-infobox .title {
+	height:39px;
+}
+.post-header-infobox .title h1 {
+	padding:0 0 0 40px;
+	font-size:30px;
+}
+.post-header-infobox .title.gender_Female {
+	background: url('images/gender_f.png') no-repeat top left;
+}
+.post-header-infobox .title.gender_Male {
+	background: url('images/gender_m.png') no-repeat top left;
+}
+
+.post-header-infobox p {
+	line-height:150%;
+	font-size:16px;
+	font-weight:bold;	
+	padding:0;
+	margin:0;
+}
+
+.post-header-infobox .col1 {
+	float:left;
+	width:200px;
+	padding-top:20px;
+}
+.post-header-infobox .col2 {
+	float:left;
+	width:200px;
+	padding-top:20px;
+}
+.post-header-infobox .col3 {
+	float:left;
+	width:400px;
+}
+
+
+.genealogy-link {
+	display:block;
+	float:right;
+	width:201px;
+	height:47px;
+	background-image:url('images/genealogy-link.png');
+	margin-top:0px;
+}
+/*
+.genealogy-link:hover {
+	background-position: 0 -47px;
+}
+*/

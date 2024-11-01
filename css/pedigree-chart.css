@@ -1,0 +1,91 @@
+
+
+.chart-container {
+	width:980px;
+	height:600px;
+}
+
+.chart-column {
+	width:245px;
+	height:600px;
+	float:left;
+}
+
+.chart-column div.level {
+	background-color:#FFCCFF;
+	border:1px solid black;
+	margin:2px;
+	text-align:center;
+	vertical-align:middle;
+}
+.chart-column div.level:hover {
+	background-color:#FF99FF;
+}
+.chart-column div.level.Male {
+	background-color:#99CCCC;
+}
+.chart-column div.level.Male:hover {
+	background-color:#339999;
+}
+div.level-0 {
+	width:241px;
+	height:596px;
+}
+div.level-1 {
+	width:241px;
+	height:296px;
+}
+div.level-2 {
+	width:241px;
+	height:146px;
+}
+div.level-3 {
+	width:241px;
+	height:71px;
+}
+
+div.details p {
+	padding-bottom:10px;
+	margin:0;
+}
+
+div.level-0 div.details {
+	position: relative; 
+	top: 50%; 
+	height: 150px; 
+	margin-top: -75px;
+	text-align:center;
+}
+div.level-1 div.details {
+	position: relative; 
+	top: 50%; 
+	height: 150px; 
+	margin-top: -75px;
+	text-align:center;
+}
+div.level-2 div.details {
+	position: relative; 
+	top: 50%; 
+	height: 120px; 
+	margin-top: -60px;
+	text-align:center;
+}
+div.level-3 div.details {
+	position: relative; 
+	top: 50%; 
+	height: 30px; 
+	margin-top: -15px;
+	text-align:center;
+}
+
+
+.allbreed-link {
+	display:block;
+	width:150px;
+	height:30px;
+	background-image:url('images/allbreed-link.png');
+	margin: 0 auto;
+}
+.allbreed-link:hover {
+	background-position: 0 -30px;
+}

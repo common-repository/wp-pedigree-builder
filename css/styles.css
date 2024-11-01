@@ -1,0 +1,11 @@
+
+
+@import url('post-header-infobox.css');
+@import url('pedigree-chart.css');
+
+
+/* tweaks for demo implementation on twenty eleven theme. */
+.one-column #page {
+	max-width: 1150px;
+	min-width: 1150px;
+}
